@@ -7,8 +7,15 @@
     "start": "nodemon --config nodemon-run.json --exec \"npx ts-node src/index.ts\" --inspect",
     "test": "nodemon --config nodemon-test.json --exec \"npx mocha -r ts-node/register 'tests/**/*.ts'\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "node",
+    "mocha",
+    "chai",
+    "nodemon",
+    "testing"
+  ],
+  "author": "doug",
   "license": "ISC",
   "dependencies": {
     "@types/chai": "^4.2.21",
